@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# /etl/user/models.py
+
 """User models."""
 import datetime as dt
 

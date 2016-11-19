@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# /etl/assets.py
+
 """Application assets."""
 from flask_assets import Bundle, Environment
 

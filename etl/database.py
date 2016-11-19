@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# /etl/database.py
+
 """Database module, including the SQLAlchemy database object and DB-related utilities."""
 from sqlalchemy.orm import relationship
 

@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# /etl/user/views.py
+
 """User views."""
 from flask import Blueprint, render_template
 from flask_login import login_required
