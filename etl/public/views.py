@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
+
+# /etl/public/views.py
+
 """Public section, including homepage and signup."""
 from flask import Blueprint, flash, redirect, render_template, request, url_for
 from flask_login import login_required, login_user, logout_user
 
 from etl.extensions import login_manager
-from etl.public.forms import LoginForm
+from .forms import LoginForm
 from etl.user.forms import RegisterForm
 from etl.user.models import User
 from etl.utils import flash_errors

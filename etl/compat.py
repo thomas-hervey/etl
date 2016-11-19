@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+# /etl/compat.py
+
 """Python 2/3 compatibility module."""
 import sys
 
